@@ -8,6 +8,10 @@ Tutorial Used for this Walktrhough: [*https://help.aikon.com/developers/oreid-ge
 
 1. MacBook Pro (32GB Ram, Intel Proc)
 2. OSX Version 11.6 (20G165)
+2. Node Version 12.12.0
+2. NPM Version 7.24.1
+2. Yarn Version 1.22.17
+2. Brew Version 3.3.9
 
 ## Pre-requisites
 
@@ -18,9 +22,13 @@ Tutorial Used for this Walktrhough: [*https://help.aikon.com/developers/oreid-ge
 
 ### Install Node & npm
 
-1. Download the latest LTS installer for your system.
+1. A Node version manager can be used on Mac OS X.  (And other operating systems.)
 
-    <img src="imgs/Screen Shot 2022-01-05 at 6.03.30 PM.png" alt="Screen Shot 2022-01-05 at 6.03.30 PM" style="zoom:35%;" />
+```shell
+brew install nvm
+nvm current
+nvm install --lts
+```
 
 2. Check the installed version using the terminal.
 
@@ -38,14 +46,6 @@ which node
 
 ```shell
 npm config ls -l
-```
-
-5. A Node version manager can be used on Mac OS X.  (And other operating systems.)
-
-```shell
-brew install nvm
-nvm current
-nvm install --lts
 ```
 
 Additional Resource: [*Downloading and installing Node.js and npm*](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) 
