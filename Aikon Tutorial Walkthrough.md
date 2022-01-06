@@ -125,3 +125,30 @@ yarn start
 6. Test the "Sign with ORE-ID" function :white_check_mark:.
 7. Enter PIN into boxes to sign transaction :white_check_mark:.
 8. Receive Transaction ID, process ID, and state from signed transaction return :white_check_mark:.
+
+### Using the Web-widget - [Step 3: Web-Widget](https://github.com/TeamAikon/ore-id-docs/tree/master/examples/react/tutorial/step3-web-widget)
+
+1. Navigate to the step3-web-widget folder.
+
+```shell
+cd ../step3-web-widget
+```
+
+2. Install the dependencies.
+
+```shell
+npm i
+```
+
+3. Run the third sample app
+
+```shell
+yarn start
+```
+
+4. Let node open your browser to http://localhost:3000.
+5. Login using FaceBook :white_check_mark: and Google :white_check_mark:.
+5. Sign Transactions with web-widget using FaceBook :white_check_mark:  and Google :white_check_mark: .
+
+> :red_circle: ISSUE: Logout does not clear cookies. Can only re-login using same account.
+
