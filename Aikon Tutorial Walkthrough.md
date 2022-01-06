@@ -6,9 +6,8 @@ Tutorial Used for this Walktrhough: [*https://help.aikon.com/developers/oreid-ge
 
 ## Test System
 
-1. MacBook Pro
-2. OSX
-   <img src="imgs/Screen Shot 2022-01-05 at 6.08.21 PM.png" alt="Screen Shot 2022-01-05 at 6.08.21 PM" style="zoom:75%;" />
+1. MacBook Pro (32GB Ram, Intel Proc)
+2. OSX Version 11.6 (20G165)
 
 ## Pre-requisites
 
