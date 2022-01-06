@@ -57,7 +57,7 @@ Additional Resource: [*Downloading and installing Node.js and npm*](https://docs
 
 View the online example - [https://react-example.oreid.io](https://react-example.oreid.io/)
 
-### How to Run the Sample App
+### How to Run the Sample App - [Step 1: Login](https://github.com/TeamAikon/ore-id-docs/tree/master/examples/react/tutorial/step1-login)
 
 Sample app is an example created by Create React App.
 
@@ -91,3 +91,38 @@ yarn start
 > :red_circle: ISSUE: Login with IdToken is not clickable.
 
 <img src="imgs/Screen Shot 2022-01-06 at 9.26.29 AM.png" alt="Screen Shot 2022-01-06 at 9.26.29 AM"  />
+
+7. When logging in to the sample app for the first time, the system asks you to create a 4 digit PIN number.
+
+> :red_circle: ISSUE: PIN is pre-filled with password and is hard to erase.
+>
+> :red_circle: ISSUE: Logout of account does not clear cookies.  Can only login using the same Google/FaceBook account.  No choice to select account after already signed in and logged out.
+
+### Signing Transactions with the sample app - [Step 2: Sign](https://github.com/TeamAikon/ore-id-docs/tree/master/examples/react/tutorial/step2-sign)
+
+1. Navigate to the step2-sign folder.
+
+```shell
+cd ../step2-sign
+```
+
+2. Install the dependencies.
+
+```shell
+npm i
+```
+
+3. Run the second sample app
+
+```shell
+yarn start
+```
+
+4. Let node open your browser to http://localhost:3000.
+5. Sign in using FaceBook :white_check_mark: and Google :white_check_mark:
+
+> :red_circle: ISSUE: No logout button.
+
+6. Test the "Sign with ORE-ID" function :white_check_mark:.
+7. Enter PIN into boxes to sign transaction :white_check_mark:.
+8. Receive Transaction ID, process ID, and state from signed transaction return :white_check_mark:.
